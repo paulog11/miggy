@@ -10,6 +10,6 @@ app.get('/', function(req, res) {
   res.render('index.html');
 });
 
-app.listen(4000, function () {
-  console.log('Miggy listening on port 4000!')
+app.listen(8080, function () {
+  console.log('Miggy listening on port 8080!')
 });
